@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logalyzer"
+version = "1.0.0"
+description = "CLI tool that analyzes server log files and emails summary reports"
+requires-python = ">=3.10"
+dependencies = ["click>=8.0"]
+
+[project.scripts]
+logalyzer = "logalyzer.cli:cli"
+
+[tool.setuptools.packages.find]
+include = ["logalyzer*"]

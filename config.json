@@ -1,0 +1,1 @@
+{"from_addr":"you@gmail.com","log_paths":["sample_logs/app.log"],"password":"your-app-password","smtp_host":"smtp.gmail.com","smtp_port":587,"to_addrs":["team@example.com"],"use_tls":true,"username":"you@gmail.com"}
